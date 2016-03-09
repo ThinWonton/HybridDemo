@@ -13,7 +13,7 @@ public class CordovaHybridActivity extends CordovaActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.init();
-
         loadUrl("file:///android_asset/www/index.html");
+//        loadUrl("http://m.jd.com");
 	}
 }
